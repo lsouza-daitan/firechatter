@@ -1,0 +1,29 @@
+.screen {
+  width: 85vw;
+  height: 90vh;
+  background: linear-gradient(#fbfdff, #f9fbfc);
+  color: #28221B;
+  border-radius: 8px;
+  padding: 40px 30px;
+  box-shadow: 0 0 10px 2px black;
+}
+
+.column-group {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+.column {
+  margin: 0 10px;
+}
+
+.vsep {
+  border-right: 1px solid rgba(0, 0, 0, .3);
+}
+
+/* Common Flex scales */
+.f0 { flex: 0 0 auto; }
+.f1 { flex: 1 1 auto; }
+.f2 { flex: 2 2 auto; }
+.f4 { flex: 4 4 auto; }

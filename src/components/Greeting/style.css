@@ -1,0 +1,33 @@
+.greeting {
+  padding: 8px;
+  width: 100%;
+}
+
+.greeting__user {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  letter-spacing: 0.04rem;
+  background: transparent;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.greeting__user .avatar {
+  margin-right: 10px;
+}
+
+.greeting__user span {
+  opacity: 0.9;
+}
+
+.greeting__user:hover span,
+.greeting__user:focus span {
+  opacity: 1.0;
+}
+
+.greeting__details {
+  margin: 15px 0;
+}

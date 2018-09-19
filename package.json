@@ -1,0 +1,21 @@
+{
+  "name": "firechatter",
+  "version": "1.0.0",
+  "description": "Simple chat powered by React and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "Leonardo Millan",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^5.5.0",
+    "prop-types": "^15.6.2",
+    "re-base": "^4.0.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.0"
+  }
+}

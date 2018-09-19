@@ -1,0 +1,7 @@
+.cache/
+.firebase/
+dist/
+node_modules/
+.env
+.firebaserc
+package-lock.json

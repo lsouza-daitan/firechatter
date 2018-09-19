@@ -1,0 +1,40 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 0.04rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: #120b20;
+  box-shadow: 0 2px 2px 1px grey;
+  transition: all 120ms ease-out;
+}
+
+.button.full-size {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  margin: 8px 0;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.button:focus {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.button:active {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.button:disabled {
+  background: rgba(180, 180, 180, 0.3);
+  opacity: 0.6;
+}
+
+.button .icon {
+  font-size: 1.25rem;
+  margin-right: .55rem;
+}
